@@ -1,0 +1,29 @@
+.card_body {
+    margin: 10px 10px 0px 0px;
+    transition: transform .3s;
+}
+.card_body:hover{
+    transition: transform .3s;
+    transform: scale(1.05);
+}
+.task_title{
+    margin: 0;
+    text-align: start;
+}
+.task_description {
+    margin: 10px 0px 10px 0px;
+
+}
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+.edit{
+    margin-right: 10px;
+}
+.description {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
